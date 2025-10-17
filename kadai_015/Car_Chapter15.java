@@ -14,8 +14,12 @@ public class Car_Chapter15 {
 			case 5 -> speed = 50;
 			default ->speed = 10;}
 			
+			
+			
 			System.out.println("ギア" + gear + "から" + afterGear + "に切り替えました");
 			
+
+			this.gear = afterGear;
 			
 			
 		}
